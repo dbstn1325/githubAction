@@ -10,6 +10,6 @@ public class UserController {
 
     @GetMapping("/")
     public UserResponse getUser(){
-        return new UserResponse("hello ci-2");
+        return new UserResponse("hello ci-3");
     }
 }
