@@ -16,6 +16,6 @@ public class UserController {
 
     @PostMapping("/create")
     public UserResponse createUser(){
-        hey build faild~~
+        return new UserResponse("create");
     }
 }
