@@ -16,6 +16,7 @@ public class UserController {
 
     @PostMapping("/create")
     public UserResponse createUser(){
-        return new UserResponse("create");
+        return new UserResponse("hello cd");
     }
+
 }
