@@ -11,7 +11,7 @@ public class UserController {
 
     @GetMapping("/")
     public UserResponse getUser(){
-        return new UserResponse("1.1");
+        return new UserResponse("1.2");
     }
 
     @PostMapping("/create")
