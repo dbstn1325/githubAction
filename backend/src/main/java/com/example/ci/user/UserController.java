@@ -11,11 +11,12 @@ public class UserController {
 
     @GetMapping("/")
     public UserResponse getUser(){
-        return new UserResponse("hello ci-3");
+        return new UserResponse("1.2");
     }
 
     @PostMapping("/create")
     public UserResponse createUser(){
-        return new UserResponse("create");
+        return new UserResponse("hello cd");
     }
+
 }
